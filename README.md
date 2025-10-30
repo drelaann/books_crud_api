@@ -7,7 +7,7 @@ Books CRUD API (на FastAPI)
 
 Установка(windows):
 python -m venv .venv
-.venv\\Scripts\\activate
+.venv/Scripts/activate
 pip install -r requirements.txt
 
 Запуск:
@@ -16,7 +16,7 @@ uvicorn books_crud_api:app --reload
 Приложение будет доступно на `http://127.0.0.1:8000`
 
 Интерактивная документация:
-- Swagger UI: `http://127.0.0.1:8000/docs`
+- Swagger: `http://127.0.0.1:8000/docs`
 - ReDoc: `http://127.0.0.1:8000/redoc`
 
 Эндпоинты:
